@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Phone } from "lucide-react";
 import { personal } from "@/data/portfolio";
 
 export default function Contact() {
@@ -79,8 +79,15 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex items-center justify-center gap-4"
+          className="flex flex-wrap items-center justify-center gap-4"
         >
+          <a
+            href={`tel:${personal.phone}`}
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 text-zinc-400 hover:text-white hover:border-white/30 transition-all duration-200"
+          >
+            <Phone size={18} />
+            <span className="text-sm">{personal.phoneDisplay}</span>
+          </a>
           <a
             href={personal.github}
             target="_blank"

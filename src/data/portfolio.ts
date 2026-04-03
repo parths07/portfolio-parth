@@ -11,6 +11,8 @@ export const personal = {
   available: true,
   github: "https://github.com/parths07",
   linkedin: "https://www.linkedin.com/in/parth-soni-a708b11b2/",
+  phone: "+919173100302",
+  phoneDisplay: "+91 91731 00302",
   tagline: "Backend-first. AI-powered. Always shipping.",
 } as const;
 
