@@ -145,8 +145,7 @@ export interface Education {
   location: string;
   cgpa: number;
   maxCgpa: number;
-  year: string;
-  highlights: string[];
+  year: string
 }
 
 export const education: Education[] = [
@@ -158,7 +157,6 @@ export const education: Education[] = [
     cgpa: 7.88,
     maxCgpa: 10,
     year: "2021 – 2023",
-    highlights: ["Distributed Systems", "Machine Learning", "Advanced Databases"],
   },
   {
     degree: "Post Graduate Diploma in Computer Application (PGDCA)",
@@ -168,7 +166,6 @@ export const education: Education[] = [
     cgpa: 8.74,
     maxCgpa: 10,
     year: "2020 – 2021",
-    highlights: ["Software Engineering", "Web Technologies", "DBMS"],
   },
   {
     degree: "Bachelor of Science (B.Sc.) — Computer Science",
@@ -178,7 +175,6 @@ export const education: Education[] = [
     cgpa: 7.4,
     maxCgpa: 10,
     year: "2017 – 2020",
-    highlights: ["Data Structures", "Algorithms", "Operating Systems"],
   },
 ];
 

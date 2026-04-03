@@ -107,8 +107,8 @@ export default function About() {
                   </div>
 
                   {/* Highlights */}
-                  <div className="flex flex-wrap gap-1.5">
-                    {edu.highlights.map((tag) => (
+                  {/* <div className="flex flex-wrap gap-1.5">
+                    {edu?.highlights.map((tag) => (
                       <span
                         key={tag}
                         className="px-2.5 py-1 rounded-full bg-white/5 text-white/60 text-xs"
@@ -116,7 +116,7 @@ export default function About() {
                         {tag}
                       </span>
                     ))}
-                  </div>
+                  </div> */}
                 </motion.div>
               );
             })}
